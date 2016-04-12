@@ -1,4 +1,6 @@
-/********************************************I-DAT-MCN-BN-0-8/04/2016********************************************/
+/********************************************I-DAT-MCN-BN-0-08/04/2016********************************************/
+INSERT INTO segu.tsubsistema (id_subsistema,codigo, nombre, fecha_reg, prefijo, estado_reg, nombre_carpeta, id_subsis_orig)
+VALUES (6,'bn', 'Banco', '2013-02-15', 'bn', 'activo', 'banco', NULL);
 
 
 select pxp.f_insert_tgui ('BANCO', '', 'bn', 'si', 1, '', 1, '', '', 'bn');
@@ -35,7 +37,7 @@ select pxp.f_insert_tprocedimiento ('bn_TPM_ELI', 'Eliminacion de registros', 's
 select pxp.f_insert_tprocedimiento ('bn_TPM_SEL', 'Consulta de datos', 'si', '', '', 'bn.ft_tipo_mov_sel');
 select pxp.f_insert_tprocedimiento ('bn_TPM_CONT', 'Conteo de registros', 'si', '', '', 'bn.ft_tipo_mov_sel');
 
-/********************************************F-DAT-MCN-BN-0-8/04/2016********************************************/
+/********************************************F-DAT-MCN-BN-0-08/04/2016********************************************/
 
 
 
