@@ -1,4 +1,4 @@
-/********************************************I-SCP-MCN-BN-1-8/04/2016********************************************/
+/********************************************I-SCP-MCN-BN-1-08/04/2016********************************************/
 CREATE TABLE bn.tbancos (
   id_banco SERIAL,
   nombre VARCHAR(50),
@@ -34,5 +34,5 @@ CREATE TABLE bn.tmovimiento_cuenta (
  id_tipo_mov integer,
  id_cuenta_bancaria integer,
   CONSTRAINT pk_movimiento_cuenta_id_movimiento_cuenta PRIMARY KEY(id_movimiento_cuenta)
-) INHERITS (pxp.tbase)
-/********************************************F-SCP-MCN-BN-1-8/04/2016********************************************/
+) INHERITS (pxp.tbase);
+/********************************************F-SCP-MCN-BN-1-08/04/2016********************************************/
